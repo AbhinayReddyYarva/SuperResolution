@@ -14,13 +14,26 @@ By excuting build_dataset.py we can create hdf5 dataset in dataset/output/ folde
 Please find the screen shot of hdf5 files which will be in GB.
 
 ## Training 
-To train the model, execute train.py. Please find the training loss plot below for 25 epocs which ran on gpu. Please don't try on CPU, it takes hours to complete just for 100 images.
+To train the model, execute train.py. Please find the training loss plot below for 25 epocs which ran on gpu. Please don't try on CPU, it takes hours to complete just for 100 images. Model saved at path dataset/output/srcnn.model
 ![](dataset/output/plot.png)
 
 ## Model outputs
+Below output images are generated from above trained model which trained only on 100 images and just for 25 epochs.
 ### input image 
 ![](abi2.jpg)
 
-### baseline image (Please go through paper for clear understanding) & output image
-![](output/abi2_baseline.jpg)![](output/abi2_output.jpg)
+### baseline image (Please go through paper for clear understanding)
+![](output/abi2_baseline.jpg)
+
+### output image
+![](output/abi2_output.jpg)
+
+### input image
+![](jemma.png)
+
+### baseline image
+![](output/jbaseline.png)
+
+### output image
+![](output/joutput.png)
 
